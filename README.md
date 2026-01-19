@@ -118,6 +118,60 @@ Max Val Accuracy: 79.4% (Epoch 86)
 
 ```
 
-Data for training Flow
-<img width="1613" height="331" alt="Black and Cream Clean and Simple Social Media Marketing Report Presentation" src="https://github.com/user-attachments/assets/978af8e9-be59-4de9-9add-533c11861ff0" />
+## 📀 Data for training Flow
+<img width="1613" height="331" alt="Black and Cream Clean and Simple Social Media Marketing Report Presentation (1)" src="https://github.com/user-attachments/assets/e2cac520-fa7b-4d5b-ae50-49fc93a7d12c" />
+
+## 🗼JSON schema
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial'}}}%%
+classDiagram
+    direction LR
+    
+    %% 1. Root Structure
+    class Root_List {
+        +List~Frame~ frames
+        %% 전체 비디오 프레임 리스트
+    }
+
+    %% 2. Frame Structure
+    class Frame {
+        +int frame_id
+        +string action
+        +List~Person~ people
+        %% 특정 시점(Frame)의 메타데이터
+    }
+
+    %% 3. Person Structure
+    class Person {
+        +int person_index
+        +int track_id
+        +List~float~ box
+        +List~List~float~~ keypoints
+        %% 객체별 좌표 및 추적 정보
+    }
+
+    %% Relationships (관계 설정)
+    %% Root는 N개의 Frame을 포함
+    Root_List "1" *-- "N" Frame : contains
+    
+    %% Frame은 0개 이상의 Person을 포함 (사람이 없을 수도 있음)
+    Frame "1" *-- "0..N" Person : contains
+
+```
+
+## 𝌭 알고리즘 비교
+| 모델 구분 | 모델명 (발표년도) | Cross-Subject (CS) | Cross-View (CV) | 비고 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Baseline** | Handcrafted + LSTM (2016) | 60.20% | 65.20% | 좌표를 단순 수치로 사용 |
+| **LSTM (SOTA)** | STA-LSTM (2017) | 73.40% | 81.20% | LSTM에 Attention 기법 추가 |
+| **LSTM (SOTA)** | GCA-LSTM (2017) | 74.40% | 82.80% | - |
+| **GCN (전환점)** | **ST-GCN (2018)** | **81.50%** | **88.30%** | **LSTM 대비 약 8~10% 성능 향상** |
+
+<img width="2357" height="1297" alt="Black and Cream Clean and Simple Social Media Marketing Report Presentation (4)" src="https://github.com/user-attachments/assets/91b11830-5052-4973-bfd3-97d93f39c936" />
+
+
+* Arxiv link : https://arxiv.org/pdf/1801.07455
+
+## 📉training process plot
+<img width="1186" height="490" alt="training_plot" src="https://github.com/user-attachments/assets/0aea7120-ee7e-40d6-8e46-8082f797c2f6" />
 
