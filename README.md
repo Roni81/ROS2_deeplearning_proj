@@ -11,6 +11,8 @@ Team Leader: Hong Seong-min (Roni81)
 
 Role: Project Management, AI Modeling, Algorithm Design, System Architecture
 
+#### pdf_Linke https://drive.google.com/file/d/1r0klkeny-HAVczeBlgfi-oxEBZAFTFLT/view?usp=sharing
+
 ## 📖 Project Overview (프로젝트 개요)
 [cite_start]최근 급증하는 '묻지마 범죄'와 '급성 심정지' 사고 등 길거리 안전 문제에 대응하기 위한 AI 시스템입니다. [cite: 18, 22]
 기존의 단순 CCTV 모니터링을 넘어, **YOLO Pose**를 통한 관절 추적과 **ST-GCN(시공간 그래프 합성곱 신경망)** 알고리즘을 결합하여 사람의 행동을 정밀하게 분석합니다.
