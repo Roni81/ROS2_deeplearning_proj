@@ -1,0 +1,132 @@
+python3 src/model_train/train_ST_GCN.py
+▶ 디바이스: mps
+▶ 데이터 로드 중: /Users/sungminhong/Documents/deepleaning_proj/datasets/stgcn_dataset.pkl
+▶ 데이터 로드 완료. 샘플 수: 5000, 클래스 수: 5
+
+🚀 학습 시작!
+[Ep 1] Loss:1.396 | Tr_Acc:35.1% | Val_Acc:38.5% | LR:0.01000
+    🌟 Best Model Saved! (38.5%)
+[Ep 2] Loss:1.264 | Tr_Acc:41.7% | Val_Acc:42.1% | LR:0.01000
+    🌟 Best Model Saved! (42.1%)
+[Ep 3] Loss:1.228 | Tr_Acc:42.5% | Val_Acc:43.9% | LR:0.01000
+    🌟 Best Model Saved! (43.9%)
+[Ep 4] Loss:1.219 | Tr_Acc:44.8% | Val_Acc:43.1% | LR:0.01000
+[Ep 5] Loss:1.187 | Tr_Acc:45.5% | Val_Acc:42.9% | LR:0.01000
+[Ep 6] Loss:1.173 | Tr_Acc:45.6% | Val_Acc:44.7% | LR:0.01000
+    🌟 Best Model Saved! (44.7%)
+[Ep 7] Loss:1.149 | Tr_Acc:47.5% | Val_Acc:44.2% | LR:0.01000
+[Ep 8] Loss:1.079 | Tr_Acc:53.9% | Val_Acc:56.2% | LR:0.01000
+    🌟 Best Model Saved! (56.2%)
+[Ep 9] Loss:0.945 | Tr_Acc:60.0% | Val_Acc:60.1% | LR:0.01000
+    🌟 Best Model Saved! (60.1%)
+[Ep 10] Loss:0.868 | Tr_Acc:63.1% | Val_Acc:59.7% | LR:0.01000
+[Ep 11] Loss:0.836 | Tr_Acc:65.3% | Val_Acc:60.1% | LR:0.01000
+[Ep 12] Loss:0.826 | Tr_Acc:65.5% | Val_Acc:57.0% | LR:0.01000
+[Ep 13] Loss:0.827 | Tr_Acc:65.4% | Val_Acc:64.2% | LR:0.01000
+    🌟 Best Model Saved! (64.2%)
+[Ep 14] Loss:0.815 | Tr_Acc:65.7% | Val_Acc:53.3% | LR:0.01000
+[Ep 15] Loss:0.812 | Tr_Acc:65.8% | Val_Acc:63.8% | LR:0.01000
+[Ep 16] Loss:0.786 | Tr_Acc:67.0% | Val_Acc:63.8% | LR:0.01000
+[Ep 17] Loss:0.784 | Tr_Acc:66.5% | Val_Acc:68.8% | LR:0.01000
+    🌟 Best Model Saved! (68.8%)
+[Ep 18] Loss:0.777 | Tr_Acc:67.6% | Val_Acc:62.4% | LR:0.01000
+[Ep 19] Loss:0.769 | Tr_Acc:67.5% | Val_Acc:65.8% | LR:0.01000
+[Ep 20] Loss:0.772 | Tr_Acc:68.0% | Val_Acc:66.7% | LR:0.00500
+[Ep 21] Loss:0.720 | Tr_Acc:69.6% | Val_Acc:68.3% | LR:0.00500
+[Ep 22] Loss:0.724 | Tr_Acc:71.0% | Val_Acc:68.9% | LR:0.00500
+    🌟 Best Model Saved! (68.9%)
+[Ep 23] Loss:0.712 | Tr_Acc:71.2% | Val_Acc:66.9% | LR:0.00500
+[Ep 24] Loss:0.702 | Tr_Acc:71.1% | Val_Acc:66.1% | LR:0.00500
+[Ep 25] Loss:0.699 | Tr_Acc:71.5% | Val_Acc:68.6% | LR:0.00500
+[Ep 26] Loss:0.704 | Tr_Acc:70.6% | Val_Acc:69.3% | LR:0.00500
+    🌟 Best Model Saved! (69.3%)
+[Ep 27] Loss:0.687 | Tr_Acc:71.5% | Val_Acc:67.5% | LR:0.00500
+[Ep 28] Loss:0.677 | Tr_Acc:72.3% | Val_Acc:69.4% | LR:0.00500
+    🌟 Best Model Saved! (69.4%)
+[Ep 29] Loss:0.665 | Tr_Acc:72.5% | Val_Acc:69.8% | LR:0.00500
+    🌟 Best Model Saved! (69.8%)
+[Ep 30] Loss:0.662 | Tr_Acc:73.4% | Val_Acc:67.0% | LR:0.00500
+[Ep 31] Loss:0.663 | Tr_Acc:73.4% | Val_Acc:68.7% | LR:0.00500
+[Ep 32] Loss:0.664 | Tr_Acc:73.5% | Val_Acc:71.7% | LR:0.00500
+    🌟 Best Model Saved! (71.7%)
+[Ep 33] Loss:0.643 | Tr_Acc:74.5% | Val_Acc:70.1% | LR:0.00500
+[Ep 34] Loss:0.643 | Tr_Acc:73.9% | Val_Acc:69.9% | LR:0.00500
+[Ep 35] Loss:0.644 | Tr_Acc:74.2% | Val_Acc:70.3% | LR:0.00500
+[Ep 36] Loss:0.632 | Tr_Acc:74.0% | Val_Acc:71.7% | LR:0.00500
+[Ep 37] Loss:0.630 | Tr_Acc:74.7% | Val_Acc:71.1% | LR:0.00500
+[Ep 38] Loss:0.630 | Tr_Acc:74.5% | Val_Acc:70.2% | LR:0.00500
+[Ep 39] Loss:0.622 | Tr_Acc:74.1% | Val_Acc:72.7% | LR:0.00500
+    🌟 Best Model Saved! (72.7%)
+[Ep 40] Loss:0.630 | Tr_Acc:73.9% | Val_Acc:74.4% | LR:0.00250
+    🌟 Best Model Saved! (74.4%)
+[Ep 41] Loss:0.594 | Tr_Acc:75.4% | Val_Acc:73.3% | LR:0.00250
+[Ep 42] Loss:0.595 | Tr_Acc:75.9% | Val_Acc:73.9% | LR:0.00250
+[Ep 43] Loss:0.575 | Tr_Acc:77.1% | Val_Acc:72.9% | LR:0.00250
+[Ep 44] Loss:0.566 | Tr_Acc:76.9% | Val_Acc:73.7% | LR:0.00250
+[Ep 45] Loss:0.570 | Tr_Acc:76.2% | Val_Acc:72.3% | LR:0.00250
+[Ep 46] Loss:0.560 | Tr_Acc:77.8% | Val_Acc:71.5% | LR:0.00250
+[Ep 47] Loss:0.567 | Tr_Acc:77.0% | Val_Acc:74.0% | LR:0.00250
+[Ep 48] Loss:0.553 | Tr_Acc:77.8% | Val_Acc:72.6% | LR:0.00250
+[Ep 49] Loss:0.556 | Tr_Acc:77.0% | Val_Acc:73.2% | LR:0.00250
+[Ep 50] Loss:0.556 | Tr_Acc:77.0% | Val_Acc:74.8% | LR:0.00250
+    🌟 Best Model Saved! (74.8%)
+[Ep 51] Loss:0.558 | Tr_Acc:77.2% | Val_Acc:71.7% | LR:0.00250
+[Ep 52] Loss:0.550 | Tr_Acc:78.0% | Val_Acc:68.4% | LR:0.00250
+[Ep 53] Loss:0.550 | Tr_Acc:77.9% | Val_Acc:73.0% | LR:0.00250
+[Ep 54] Loss:0.534 | Tr_Acc:78.1% | Val_Acc:73.2% | LR:0.00250
+[Ep 55] Loss:0.526 | Tr_Acc:78.9% | Val_Acc:74.5% | LR:0.00250
+[Ep 56] Loss:0.536 | Tr_Acc:78.4% | Val_Acc:73.5% | LR:0.00250
+[Ep 57] Loss:0.529 | Tr_Acc:78.5% | Val_Acc:74.4% | LR:0.00250
+[Ep 58] Loss:0.522 | Tr_Acc:80.0% | Val_Acc:72.8% | LR:0.00250
+[Ep 59] Loss:0.518 | Tr_Acc:79.3% | Val_Acc:74.3% | LR:0.00250
+[Ep 60] Loss:0.512 | Tr_Acc:78.8% | Val_Acc:75.7% | LR:0.00125
+    🌟 Best Model Saved! (75.7%)
+[Ep 61] Loss:0.501 | Tr_Acc:80.1% | Val_Acc:75.8% | LR:0.00125
+    🌟 Best Model Saved! (75.8%)
+[Ep 62] Loss:0.506 | Tr_Acc:79.9% | Val_Acc:75.9% | LR:0.00125
+    🌟 Best Model Saved! (75.9%)
+[Ep 63] Loss:0.491 | Tr_Acc:80.5% | Val_Acc:75.9% | LR:0.00125
+[Ep 64] Loss:0.498 | Tr_Acc:80.5% | Val_Acc:75.7% | LR:0.00125
+[Ep 65] Loss:0.485 | Tr_Acc:80.3% | Val_Acc:76.2% | LR:0.00125
+    🌟 Best Model Saved! (76.2%)
+[Ep 66] Loss:0.490 | Tr_Acc:80.4% | Val_Acc:75.5% | LR:0.00125
+[Ep 67] Loss:0.472 | Tr_Acc:81.3% | Val_Acc:77.3% | LR:0.00125
+    🌟 Best Model Saved! (77.3%)
+[Ep 68] Loss:0.473 | Tr_Acc:80.6% | Val_Acc:78.3% | LR:0.00125
+    🌟 Best Model Saved! (78.3%)
+[Ep 69] Loss:0.480 | Tr_Acc:81.2% | Val_Acc:78.2% | LR:0.00125
+[Ep 70] Loss:0.483 | Tr_Acc:80.4% | Val_Acc:76.6% | LR:0.00125
+[Ep 71] Loss:0.476 | Tr_Acc:80.7% | Val_Acc:76.3% | LR:0.00125
+[Ep 72] Loss:0.483 | Tr_Acc:80.8% | Val_Acc:75.8% | LR:0.00125
+[Ep 73] Loss:0.469 | Tr_Acc:80.7% | Val_Acc:76.0% | LR:0.00125
+[Ep 74] Loss:0.473 | Tr_Acc:80.7% | Val_Acc:77.6% | LR:0.00125
+[Ep 75] Loss:0.471 | Tr_Acc:81.7% | Val_Acc:75.8% | LR:0.00125
+[Ep 76] Loss:0.465 | Tr_Acc:81.5% | Val_Acc:76.9% | LR:0.00125
+[Ep 77] Loss:0.453 | Tr_Acc:82.2% | Val_Acc:77.5% | LR:0.00125
+[Ep 78] Loss:0.450 | Tr_Acc:82.3% | Val_Acc:77.0% | LR:0.00125
+[Ep 79] Loss:0.453 | Tr_Acc:82.8% | Val_Acc:76.7% | LR:0.00125
+[Ep 80] Loss:0.442 | Tr_Acc:82.5% | Val_Acc:77.7% | LR:0.00063
+[Ep 81] Loss:0.451 | Tr_Acc:81.9% | Val_Acc:78.2% | LR:0.00063
+[Ep 82] Loss:0.440 | Tr_Acc:82.7% | Val_Acc:76.6% | LR:0.00063
+[Ep 83] Loss:0.440 | Tr_Acc:82.6% | Val_Acc:78.7% | LR:0.00063
+    🌟 Best Model Saved! (78.7%)
+[Ep 84] Loss:0.429 | Tr_Acc:83.1% | Val_Acc:77.6% | LR:0.00063
+[Ep 85] Loss:0.429 | Tr_Acc:83.5% | Val_Acc:76.7% | LR:0.00063
+[Ep 86] Loss:0.438 | Tr_Acc:82.8% | Val_Acc:79.4% | LR:0.00063
+    🌟 Best Model Saved! (79.4%)
+[Ep 87] Loss:0.434 | Tr_Acc:82.8% | Val_Acc:78.6% | LR:0.00063
+[Ep 88] Loss:0.432 | Tr_Acc:83.0% | Val_Acc:74.3% | LR:0.00063
+[Ep 89] Loss:0.419 | Tr_Acc:83.3% | Val_Acc:77.6% | LR:0.00063
+[Ep 90] Loss:0.426 | Tr_Acc:83.6% | Val_Acc:78.5% | LR:0.00063
+[Ep 91] Loss:0.435 | Tr_Acc:82.7% | Val_Acc:76.8% | LR:0.00063
+[Ep 92] Loss:0.421 | Tr_Acc:83.8% | Val_Acc:76.3% | LR:0.00063
+[Ep 93] Loss:0.431 | Tr_Acc:83.0% | Val_Acc:76.8% | LR:0.00063
+[Ep 94] Loss:0.414 | Tr_Acc:83.9% | Val_Acc:77.0% | LR:0.00063
+[Ep 95] Loss:0.417 | Tr_Acc:83.7% | Val_Acc:78.9% | LR:0.00063
+[Ep 96] Loss:0.418 | Tr_Acc:83.7% | Val_Acc:76.5% | LR:0.00063
+[Ep 97] Loss:0.413 | Tr_Acc:83.6% | Val_Acc:77.5% | LR:0.00063
+[Ep 98] Loss:0.414 | Tr_Acc:83.4% | Val_Acc:76.8% | LR:0.00063
+[Ep 99] Loss:0.423 | Tr_Acc:83.0% | Val_Acc:77.3% | LR:0.00063
+[Ep 100] Loss:0.418 | Tr_Acc:83.2% | Val_Acc:77.5% | LR:0.00031
+
+✅ 완료. 최종 Best Acc: 79.4%

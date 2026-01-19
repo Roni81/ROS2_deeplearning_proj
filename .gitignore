@@ -23,6 +23,8 @@ venv/
 *.npy
 *.mp4
 *.avi
+stgcn_dataset.pkl
+
 
 # 이미지 파일들도 제외하고 싶다면 주석 해제
 # *.jpg
@@ -40,4 +42,5 @@ dataset/
 .vscode/
 .idea/
 .DS_Store
-Thumbs.db
+Thumbs.dbdatasets/*.pkl
+datasets/*.pkl
